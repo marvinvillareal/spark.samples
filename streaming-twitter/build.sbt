@@ -10,7 +10,7 @@ libraryDependencies ++= {
     "org.apache.spark" %%  "spark-core"	  %  sparkVersion % "provided",
     "org.apache.spark" %%  "spark-sql"  %  sparkVersion % "provided",
     "org.apache.spark" %%  "spark-streaming"	  %  sparkVersion % "provided",
-    "org.apache.spark" %%  "spark-streaming-twitter"  %  "1.6.2",
+    "org.apache.spark" %%  "spark-streaming-twitter"  %  sparkVersion,
     "org.apache.spark" %% "spark-repl" % sparkVersion % "provided",
     "com.ibm" %% "couchdb-scala" % "0.5.3",
     "org.apache.kafka" % "kafka-log4j-appender" % "0.9.0.0",

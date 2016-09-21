@@ -26,6 +26,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
 import org.apache.spark.streaming._
 import org.apache.spark.streaming.dstream._
+import org.apache.spark.streaming.twitter._
 import org.http4s._
 import org.http4s.Http4s._
 import org.http4s.Status._
